@@ -10,9 +10,7 @@ import android.widget.TextView;
 
 import java.util.List;
 
-/**
- * Created by yujian on 2017/5/23.
- */
+
 
 public class MusicAdapter extends BaseAdapter{
 

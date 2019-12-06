@@ -10,9 +10,7 @@ import android.widget.Toast;
 import java.io.IOException;
 import java.util.Random;
 
-/**
- * Created by yujian on 2017/5/22.
- */
+
 
 public class MusicService extends Service{
     private final IBinder iBinder = new MusicBinder();

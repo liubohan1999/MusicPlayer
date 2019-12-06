@@ -1,8 +1,6 @@
 package com.example.yujian.music;
 
-/**
- * Created by yujian on 2017/5/23.
- */
+
 
 public class Music {
     private int id;

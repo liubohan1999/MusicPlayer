@@ -8,9 +8,7 @@ import android.database.sqlite.SQLiteOpenHelper;
 import java.util.LinkedList;
 import java.util.List;
 
-/**
- * Created by yujian on 2017/5/24.
- */
+
 
 public class MyDatabaseHelper extends SQLiteOpenHelper{
     private static final String mName = "Music.db";

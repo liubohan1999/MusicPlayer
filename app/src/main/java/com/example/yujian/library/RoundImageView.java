@@ -17,9 +17,7 @@ import android.widget.ImageView;
 
 import androidx.appcompat.widget.AppCompatImageView;
 
-/**
- * Created by yujian on 2017/5/28.
- */
+
 
 public class RoundImageView extends AppCompatImageView {
 

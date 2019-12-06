@@ -62,7 +62,7 @@ public class PlayActivity extends AppCompatActivity {
         initView();
         Intent intent=new Intent(this,MusicService.class);
         bindService(intent,mServiceConnection, Context.BIND_AUTO_CREATE);
-        Toast.makeText(PlayActivity.this,"服务开启",Toast.LENGTH_SHORT).show();
+       // Toast.makeText(PlayActivity.this,"服务开启",Toast.LENGTH_SHORT).show();
     }
 
     //初始化控件属性
@@ -311,7 +311,7 @@ public class PlayActivity extends AppCompatActivity {
             mBound=false;
             isStop=true;
         }
-        Toast.makeText(PlayActivity.this,"服务关闭",Toast.LENGTH_SHORT).show();
+        //Toast.makeText(PlayActivity.this,"服务关闭",Toast.LENGTH_SHORT).show();
     }
 
 
