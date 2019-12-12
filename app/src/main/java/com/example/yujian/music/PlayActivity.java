@@ -100,6 +100,9 @@ public class PlayActivity extends AppCompatActivity {
             @Override
             public void onStopTrackingTouch(SeekBar seekBar) {
                 musicService.seekTo(seekBar.getProgress()); //从指定的位置开始播放视频
+                ///////////////////////////////////////////////////
+                //////////////////////////////////////////////////////
+                ////////////////////////////////////////////////////////////
             }
         });
     }
@@ -137,7 +140,7 @@ public class PlayActivity extends AppCompatActivity {
 
             @Override
             public void run() {
-                musicNowTime = musicService.getCurrentPosition();
+                musicNowTime = musicService.getCurrentPosition();///sui
                 seekBar.setProgress(musicNowTime);
                 runOnUiThread(new Runnable() {
                     @Override
@@ -263,7 +266,7 @@ public class PlayActivity extends AppCompatActivity {
 
     //播放音乐
     private void musicStart(){
-        imgStart.setImageDrawable(getResources().getDrawable(R.drawable.player_stop));
+        imgStart.setImageDrawable(getResources().getDrawable(R.drawable.stop));
         musicService.start();
         imgCover.startRun();
         isStop=false;
@@ -271,7 +274,7 @@ public class PlayActivity extends AppCompatActivity {
 
     //暂停音乐
     private void musicStop(){
-        imgStart.setImageDrawable(getResources().getDrawable(R.drawable.player_start));
+        imgStart.setImageDrawable(getResources().getDrawable(R.drawable.play));
         musicService.pause();
         imgCover.stopRun();
         isStop=true;

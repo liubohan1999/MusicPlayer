@@ -35,7 +35,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="15dp"
-            android:text="  音效  "
+
             android:background="@drawable/textview_border"/>
 
         <TextView
@@ -44,7 +44,7 @@
             android:layout_height="wrap_content"
             android:textSize="15dp"
             android:layout_marginLeft="10dp"
-            android:text="  标准  "
+
             android:background="@drawable/textview_border"/>
 
     </LinearLayout>
@@ -91,23 +91,23 @@
         android:layout_marginBottom="20dp">
         <ImageView
             android:id="@+id/img_prev"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src="@drawable/player_prev"/>
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/prev"/>
 
         <ImageView
             android:id="@+id/img_start"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
             android:layout_marginLeft="20dp"
-            android:src="@drawable/player_start"/>
+            android:src="@drawable/play"/>
 
         <ImageView
             android:id="@+id/img_next"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
             android:layout_marginLeft="20dp"
-            android:src="@drawable/player_next"/>
+            android:src="@drawable/next"/>
 
     </LinearLayout>
 

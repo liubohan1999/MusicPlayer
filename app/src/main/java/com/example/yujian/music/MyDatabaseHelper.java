@@ -31,13 +31,10 @@ public class MyDatabaseHelper extends SQLiteOpenHelper{
     public void onCreate(SQLiteDatabase db) {
         db.execSQL(CREATETBLMUSIC);
         //0代表了标准品质，1代表了高品质，2代表了无损品质
-        db.execSQL("insert into tblMusic(name,singer,album,path,sound) values('极乐净土','GARNiDELiA','约束','/storage/emulated/0/music1.mp3',2)");
-        db.execSQL("insert into tblMusic(name,singer,album,path,sound) values('妲己','葛雨晴','Meng','/storage/emulated/0/music2.mp3',2)");
-        db.execSQL("insert into tblMusic(name,singer,album,path,sound) values('亲爱的你','葛雨晴/可韵','Meng','/storage/emulated/0/music3.mp3',1)");
-        db.execSQL("insert into tblMusic(name,singer,album,path,sound) values('刚好遇见你','李玉刚','刚好遇见你','/storage/emulated/0/music4.mp3',0)");
-        db.execSQL("insert into tblMusic(name,singer,album,path,sound) values('九九八十一','双笙','笙声不息','/storage/emulated/0/music5.mp3',2)");
-        db.execSQL("insert into tblMusic(name,singer,album,path,sound) values('用力去爱','孙莞','反作用','/storage/emulated/0/music6.mp3',1)");
-    }
+        db.execSQL("insert into tblMusic(name,singer,album,path,sound) values('DreamItPossible','张靓颖','华为手机歌曲铃声','/storage/emulated/0/Dream_It_Possible.mp3',0)");
+        db.execSQL("insert into tblMusic(name,singer,album,path,sound) values('Encounter','Jason','PhoneMusic','/storage/emulated/0/Encounter.mp3',0)");
+        db.execSQL("insert into tblMusic(name,singer,album,path,sound) values('Polonaise','网络歌手','未知','/storage/emulated/0/Polonaise.mp3',0)");
+}
 
     @Override
     public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {
