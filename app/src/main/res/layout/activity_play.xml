@@ -12,7 +12,7 @@
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:textSize="25dp"
-        android:text="极乐净土"
+        android:text="歌曲名称"
         android:layout_marginTop="5dp"/>
 
     <TextView
@@ -21,7 +21,7 @@
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:textSize="15dp"
-        android:text="GARNiDELiA"
+        android:text="作者"
         android:layout_marginTop="40dp"/>
 
     <LinearLayout
